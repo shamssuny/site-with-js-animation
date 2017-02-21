@@ -1,0 +1,458 @@
+
+
+/*@font-face {
+   font-family: m;
+   src: url('https://fonts.googleapis.com/css?family=Poppins');
+}*/
+
+
+
+
+body{
+	font-family: 'Poppins',sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+.menubar{
+	/*background-image: linear-gradient(rgba(27, 26, 23, 0.86),rgba(0, 0, 0, 0.82)), url('../img/slide1.jpg');*/
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.overlay{
+	/*background-color: black;*/
+
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+.navbar-default{
+	background: transparent;
+	border:none;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    background-color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.head{
+	padding-top: 150px;
+	text-align: center;
+	color: white;
+}
+.head img{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+.head h3{
+	font-family: 'Roboto',sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.head p{
+	font-size: 17px;
+}
+
+.head i{
+	padding-top: 90px;
+	font-size: 30px;
+	color: #FFCB2F;
+}
+
+.brief{
+	padding-top: 70px;
+
+}
+.brief-img{
+	text-align: center;
+	/*border:2px solid red;*/
+}
+.brief-img img{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.br-in{
+	padding-top: 10%;
+}
+.br-in h2{
+	font-family: 'Roboto',sans-serif;
+	font-weight: bold;
+}
+.br-in h4{
+	font-weight: bold;
+}
+.br-in p{
+	line-height: 25px;
+	font-size: 16px;
+}
+
+.br-in button{
+	margin-top: 20px;
+	width: 200px;
+	height: 50px;
+	background-color: #FFCB2F;
+	color: white;
+	border-radius: 30px;
+	border:none;
+	transition: all 0.5s;
+}
+
+.br-in button:hover {
+	background-color: white;
+	color: black;
+	border:2px solid #FFCB2F;
+}
+
+.br-in button:focus{
+	outline-style: none;
+}
+.serv-main{
+	background-color: #F6F6F6;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.services{
+	text-align: center;
+}
+
+.services h4{
+	font-family: 'Roboto',sans-serif;
+	font-weight: bold;
+}
+.serv{
+
+	text-align: center;
+	/*border: 2px solid red;*/
+
+}
+
+.serv-in{
+	/*border: 2px solid green;*/
+	width: 98%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 45px;
+	margin-top:20px;
+}
+
+
+.serv i{
+	color: #FFCB2F;
+	font-size: 35px;
+	border: 1.5px solid #FFCB2F;
+	padding: 15px;
+	border-radius: 40px;
+	transition: all 0.5s;
+}
+
+.serv :hover >i{
+	
+	background-color: #FFCB2F;
+	color: white;
+	
+}
+
+.counter-main{
+	/*background: linear-gradient(rgba(27, 26, 23, 0.86),rgba(0, 0, 0, 0.82)), url('../img/bg.jpg');*/
+	background-size: cover;
+	/*background-position: 0px -134px;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.counter{
+	text-align: center;
+	height: 40vh;
+	padding-top: 10%;
+
+}
+.cnt{
+	padding: 20px;
+
+}
+.cnt h2{
+	color: #FFCB2F;
+	font-weight: bold;
+}
+
+.cnt h4{
+	color: white;
+
+}
+
+.exp-main{
+	background-color: #F6F6F6;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.exp{
+	/*border: 2px solid red;*/
+}
+
+.exp-detail{
+	/*border: 2px solid green;*/
+	width: 99%;
+	margin: 0 auto;
+	padding: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+	background-color: white;
+}
+
+.exp-left{
+	float: left;
+}
+
+.exp-head{
+	overflow: hidden;
+}
+
+.exp-right{
+	float: right;
+}
+
+.exp-right span{
+
+	padding-left: 2px;
+	padding-right: 2px;
+	/*padding-bottom: 2px;*/
+	background-color: #FFCB2F;
+	color: white;
+}
+
+.works{
+
+}
+
+.work-main{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+
+}
+
+.work-main button{
+	border:1.5px solid #FFCB2F;
+	background-color: white;
+	padding: 10px;
+	margin: 5px;
+	font-weight: bold;
+	border-radius: 20px;
+	transition: all 0.5s;
+}
+
+
+
+.work-main button:hover{
+	background-color: #FFCB2F;
+	color: white;
+}
+
+.work-main button:focus{
+	outline-style: none;
+}
+
+.work-detail a{
+	position: relative;
+	transition: all 0.5s;
+}
+
+.work-detail a:hover{
+	opacity: 0.2;
+}
+
+.work-detail a:hover + .fu{
+	opacity: 1;
+	top: 270px;
+}
+
+.fu{
+	position: absolute;
+	top: 300px;
+    left: 45px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+
+.act{
+	border:1.5px solid #FFCB2F;
+	background-color: #FFCB2F !important;
+	padding: 10px;
+	margin: 5px;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	/*transition: all 0.5s;*/
+}
+
+
+.work-detail{
+	/*border:2px solid red;*/
+	text-align: center;
+	margin-top: 20px;
+}
+
+.work-detail img{
+	width: 100%;
+}
+
+.client{
+	/*background-image: linear-gradient(rgba(27, 26, 23, 0.86),rgba(0, 0, 0, 0.82)), url('../img/testi.jpeg');*/
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: white;
+	height: 60vh;
+}
+
+.client-main{
+	text-align: center;
+	padding-top: 60px;
+
+}
+
+.client-main i{
+	color: #FFCB2F;
+	padding: 10px;
+	border-radius: 45px;
+	background-color: white;
+	margin: 10px;
+}
+
+.get{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.get-detail i{
+	padding: 10px;
+	background-color: #FFCB2F;
+	color: white;
+	border-radius: 25px;
+}
+
+.get-detail span{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.get-main h2{
+	padding: 20px;
+	font-weight: bold;
+	font-family: 'Roboto',sans-serif;
+}
+
+.get-ico{
+	float: left;
+}
+.get-loc{
+	float: left;
+	padding-left: 10px;
+}
+
+.get-form{
+	margin-top: 20px;
+}
+
+.get-form input{
+	width: 49%;
+	padding: 20px;
+	font-weight: bold;
+	border:none;
+	border-bottom: 2px solid black;
+}
+
+.get-form input:focus{
+	outline-style: none;
+}
+
+.get-form textarea{
+	width: 100%;
+	border:none;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+	height: 200px;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.get-form textarea:focus{
+	outline-style: none;
+}
+
+.get-but{
+	text-align: center;
+}
+
+.get-but{
+	margin-top: 20px;
+}
+
+.get-but button{
+	border:none;
+	background-color: #FFCB2F;
+	color: white;
+	height: 50px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 25px;
+	transition: all 0.5s;
+}
+
+.get-but button:hover{
+	background-color: white;
+	border:1.5px solid #FFCB2F;
+	color: black;
+}
+
+.get-but button:focus{
+	outline-style: none;
+}
+
+.map{
+	height: 40vh;
+}
+.map iframe{
+	width: 100%;
+	height: 40vh;
+}
+
+.footer{
+	height: 50vh;
+	background-color: black;
+	text-align: center;
+}
+
+.footer-main{
+	padding-top: 10%;
+}
+
+.footer span{
+	color: #FFCB2F;
+	transition: all 0.5s;
+}
+
+.footer span:hover{
+	color: #90B9B9;
+	cursor: pointer;
+}
+
+
+
+
